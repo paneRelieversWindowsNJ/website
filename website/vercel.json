@@ -4,10 +4,5 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ],
-  "functions": {
-    "api/submit-form.js": {
-      "maxDuration": 10
-    }
-  }
+  ]
 }
