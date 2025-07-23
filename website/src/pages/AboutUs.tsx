@@ -44,7 +44,7 @@ const aboutItems = [
         <br />
         You won't regret it.
       </>
-    ),
+    ), 
   },
 ];
 
