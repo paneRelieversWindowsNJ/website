@@ -29,7 +29,7 @@ const NavBar: React.FC = () => {
             Home
           </Nav.Link>
           <Nav.Link 
-            href="/AboutUs" 
+            href="/Services" 
             style={linkStyle}
             onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.backgroundColor = '#f8f9fa'}
             onMouseLeave={(e) => ((e.target as HTMLAnchorElement).style.backgroundColor = 'transparent')}
@@ -37,7 +37,7 @@ const NavBar: React.FC = () => {
             Services
           </Nav.Link>
           <Nav.Link 
-            href="/Crew" 
+            href="/AboutUs" 
             style={linkStyle}
             onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.backgroundColor = '#f8f9fa'}
             onMouseLeave={(e) => ((e.target as HTMLAnchorElement).style.backgroundColor = 'transparent')}
