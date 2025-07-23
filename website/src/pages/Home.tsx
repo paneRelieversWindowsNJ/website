@@ -8,8 +8,6 @@ import Pic3 from "/public/BFResi1.jpg";
 import Pic4 from "/public/BFResi2.jpg";
 import Pic5 from "/public/BFCom1.jpg"; 
 import Pic6 from "/public/BFCom2.jpg"; 
-import Pic7 from "/public/BFCom3.jpg"; 
-import Pic8 from "/public/BFCom4.jpg"; 
 import Pic9 from "/public/BFResi4.jpg"; 
 import Pic10 from "/public/BFResi5.jpg"; 
 import ImageSection from "../components/Home/Image";
@@ -31,8 +29,6 @@ const HomePage: React.FC = () => {
             Pic4,
             Pic5,
             Pic6,
-            Pic7,
-            Pic8,
             Pic9,
             Pic10
         ]}
