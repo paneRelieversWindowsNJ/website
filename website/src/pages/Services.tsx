@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import { FaBuilding, FaHome, FaTools } from "react-icons/fa";
+import pic1 from "/public/PaneRelieversLLC.jpg";
 
 const services = [
   {
@@ -69,7 +70,7 @@ const Services: React.FC = () => {
       <div className="bg-white py-12">
         <Container className="d-flex justify-content-center">
           <img
-            src="/public/PaneRelieversLLC.jpg" // <-- Replace this URL with your image source
+            src={pic1} // <-- Replace this URL with your image source
             alt="Centered display"
             className="img-fluid"
             style={{ maxWidth: "100%", height: "auto" }}
